@@ -1,8 +1,8 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "web.py"
+      "source": "/(.*)",
+      "destination": "/api/web.py"
     }
   ]
 }
