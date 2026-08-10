@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+dataset/
+*.pkl
+*.pth
+*.pt
+
+
+venv/
+.venv/
+.vscode/
+.idea/
+.DS_Store
