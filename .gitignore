@@ -1,9 +1,4 @@
-
-
-
-dataset/
-*.pkl
-*.pt
+_pycache_/
 
 
 venv/
