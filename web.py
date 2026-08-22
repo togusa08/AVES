@@ -8,6 +8,8 @@ from fastapi.responses import HTMLResponse, JSONResponse
 
 app = FastAPI()
 
+## LOADING CLASS NAMES
+
 class_names = ["anna_hummingbird", "arctic_tern", "blue_jay",
                 "cardinal","downy_woodpecker","goldfinch",
                 "herring_gull","hooded_oriole" ,"house_sparrow" ,
@@ -28,7 +30,7 @@ transform = transforms.Compose([
 ])
 
 
-# HTML/CSS/JS CODE
+# HTML/CSS/JS CODELINES
 
 @app.get("/", response_class=HTMLResponse)
 def main_page():
